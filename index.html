@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLPLAY - Stream Entertainment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-left">
+                <div class="logo">
+                    <h1>GLPLAY</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tvshows">TV Shows</a></li>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#latest">New & Popular</a></li>
+                    <li><a href="#mylist">My List</a></li>
+                    <li><a href="#originals">GLPLAY Originals</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-icon">🔍</div>
+                <div class="notifications">🔔</div>
+                <div class="profile-dropdown">
+                    <div class="profile-pic"></div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-info">
+                <h1 class="hero-title">Stranger Things</h1>
+                <p class="hero-description">
+                    When a young boy vanishes, a small town uncovers a mystery involving secret experiments, 
+                    terrifying supernatural forces, and one strange little girl.
+                </p>
+                <div class="hero-buttons">
+                    <button class="play-btn">▶ Play</button>
+                    <button class="info-btn">ℹ More Info</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-fade"></div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Trending Now -->
+        <section class="content-row">
+            <h2 class="row-title">Trending Now</h2>
+            <div class="row-container">
+                <div class="row-content" id="trending-row">
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+1" alt="Show 1">
+                        <div class="content-overlay">
+                            <h3>Action Thriller</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+2" alt="Show 2">
+                        <div class="content-overlay">
+                            <h3>Sci-Fi Drama</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+3" alt="Show 3">
+                        <div class="content-overlay">
+                            <h3>Comedy Series</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+4" alt="Show 4">
+                        <div class="content-overlay">
+                            <h3>Horror Mystery</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+5" alt="Show 5">
+                        <div class="content-overlay">
+                            <h3>Romance Drama</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Show+6" alt="Show 6">
+                        <div class="content-overlay">
+                            <h3>Documentary</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="row-nav row-nav-left">‹</button>
+                <button class="row-nav row-nav-right">›</button>
+            </div>
+        </section>
+
+        <!-- Popular on GLPLAY -->
+        <section class="content-row">
+            <h2 class="row-title">Popular on GLPLAY</h2>
+            <div class="row-container">
+                <div class="row-content" id="popular-row">
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+1" alt="Popular 1">
+                        <div class="content-overlay">
+                            <h3>Blockbuster Hit</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+2" alt="Popular 2">
+                        <div class="content-overlay">
+                            <h3>Award Winner</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+3" alt="Popular 3">
+                        <div class="content-overlay">
+                            <h3>Fan Favorite</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+4" alt="Popular 4">
+                        <div class="content-overlay">
+                            <h3>Critics Choice</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+5" alt="Popular 5">
+                        <div class="content-overlay">
+                            <h3>Must Watch</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Popular+6" alt="Popular 6">
+                        <div class="content-overlay">
+                            <h3>Viewer's Pick</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="row-nav row-nav-left">‹</button>
+                <button class="row-nav row-nav-right">›</button>
+            </div>
+        </section>
+
+        <!-- GLPLAY Originals -->
+        <section class="content-row">
+            <h2 class="row-title">GLPLAY Originals</h2>
+            <div class="row-container">
+                <div class="row-content" id="originals-row">
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+1" alt="Original 1">
+                        <div class="content-overlay">
+                            <h3>Exclusive Series</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+2" alt="Original 2">
+                        <div class="content-overlay">
+                            <h3>Original Drama</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+3" alt="Original 3">
+                        <div class="content-overlay">
+                            <h3>Original Comedy</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+4" alt="Original 4">
+                        <div class="content-overlay">
+                            <h3>Original Thriller</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+5" alt="Original 5">
+                        <div class="content-overlay">
+                            <h3>Original Documentary</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item">
+                        <img src="https://via.placeholder.com/300x169/333/fff?text=Original+6" alt="Original 6">
+                        <div class="content-overlay">
+                            <h3>Original Movie</h3>
+                            <div class="content-controls">
+                                <button class="play-small">▶</button>
+                                <button class="add-list">+</button>
+                                <button class="thumbs-up">👍</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="row-nav row-nav-left">‹</button>
+                <button class="row-nav row-nav-right">›</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <a href="#">Audio Description</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Media Center</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy</a>
+                </div>
+                <div class="footer-column">
+                    <a href="#">Legal Notices</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">Corporate Information</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GLPLAY, Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for content details -->
+    <div id="content-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body">
+                <h2 id="modal-title">Content Title</h2>
+                <p id="modal-description">Content description goes here...</p>
+                <div class="modal-buttons">
+                    <button class="play-btn">▶ Play</button>
+                    <button class="info-btn">+ Add to List</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

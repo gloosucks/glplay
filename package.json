@@ -1,0 +1,16 @@
+{
+  "name": "glplay-website",
+  "version": "1.0.0",
+  "description": "A Netflix-like streaming website interface called GLPLAY",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server .",
+    "dev": "npx live-server . --port=3000"
+  },
+  "keywords": ["streaming", "netflix", "entertainment", "website"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
